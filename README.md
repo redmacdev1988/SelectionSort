@@ -17,7 +17,7 @@ For each outer index, we have an inner index that starts at the NEXT element.
 Then it loops through the REST OF the elements.
 
 It compares each element with the outer element.
-If the outer element is smaller, we simply swap it with the outer like so:
+If the inner element is smaller, we simply swap it with the outer like so:
 
     if (data[inner] < data[outer]) {
         swap(data, innerIndex, outerIndex);
