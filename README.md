@@ -34,30 +34,43 @@ Outer starts at index 0, which is value 6 .
 Inner starts at the next element at value 8.
 
 8 < 6? no
+
 0 < 6? yes. swap
 
 [0] 8 6 7 6 4 3 1 5 10
 
 7 < 0? no
+
 6 < 0? no
+
 4 < 0? no
+
 3 < 0? no
+
 1 < 0? no
+
 5 < 0? no
-10 < 0? no.
+
+10 < 0? no
+
 
 outer 0 is finished.
 
 0 [8] 6 7 6 4 3 1 5 10
 
-outer 2. minimum starts at index 1, which is value 8.
+outer 1.
+minimum starts at index 1, which is value 8.
 
 Inner starts at next element, which is value 6.
+
 6 < 8? yes. swap
 
 0 [6] 8 7 6 4 3 1 5 10
+
 7 < 6? no
+
 6 < 6? no
+
 4 < 6? yes, swap.
 
 0 [4] 8 7 6 6 3 1 5 10
