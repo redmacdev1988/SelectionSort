@@ -28,15 +28,15 @@ function swap(array, index1, index2) {
 
 // given a certain pass
 // we get the minimum value and swap it
-function swapSmallerValuesToFront(data, pass, lastIndex) {
-  for (var index = pass + 1; index <= lastIndex; index++) {
+function swapSmallerValuesToFront(data, outerIndex, lastIndex) {
+  for (var innerIndex = outerIndex + 1; innerIndex <= lastIndex; innerIndex++) {
       console.log("");
-      console.log("inner index: " + index + ", data[inner]: " + data[index]);
-      console.log("data[min]: " + data[pass]);
+      console.log("inner index: " + innerIndex + ", data[inner]: " + data[innerIndex]);
+      console.log("data[outerIndex]: " + data[outerIndex]);
 
-      if (data[index] < data[pass]) {
+      if (data[innerIndex] < data[outerIndex]) {
           console.log(" We need to swap because current element is smaller");
-          swap(data, index, pass);
+          swap(data, innerIndex, outerIndex);
           console.log("---> data display: " + data);
       }
   }
