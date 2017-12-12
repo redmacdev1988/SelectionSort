@@ -82,11 +82,12 @@ Inner starts at next element, which is value 6.
 1 < 3? yes, swap
 
 0 [1] 8 7 6 6 4 3 5 10
+
 5 < 1? no
-10 < 1? no.
+
+10 < 1? no
 
 Outer index 1 finished.
-
 
 Outer index 2 starts, which is value 8.
 
