@@ -6,7 +6,7 @@ http://shanghaiseagull.com/index.php/2017/10/11/7582/
 Time Complexity: O(n2) as there are two nested loops.
 
 Auxiliary Space: O(1)
-The good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation.
+The **good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation**.
 
 
 The idea behind this is that we have a outer index.
